@@ -14,25 +14,40 @@
         <div class="container">
             <h1>Calcola il prezzo del tuo biglietto</h1>
         </div>
-        <div class="container">
+        
+        <div class="container mt-5">
+            <p>Compila il form e clicca sul pulsante Calcola</p>
             <form class="row g-3">
-  <div class="col-md-5">
-    <label for="km" class="form-label">Numero di km</label>
-    <input type="text" class="form-control" name="km" id="km">
-  </div>
-  <div class="col-md-5">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
+        <div class="col-md-5">
+            <input type="text" class="form-control" name="km" id="km" placeholder="Numero di km">
+        </div>
+        <div class="col-md-5">    
+            <select id="inputState" class="form-select">
+            <option value="">Nessuno</option>
+            <option value="minorenni">Minorenni</option>
+            <option value="over-65">Over 65</option>
+            </select>
+        </div>
   
   
-  <div class="col-md-2">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </div>
-</form>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-light">Calcola</button>
+        </div>
+        </form>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Biglietto</h2>
+                            <p>Prezzo: 00,00 &euro;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
