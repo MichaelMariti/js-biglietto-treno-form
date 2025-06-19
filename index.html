@@ -22,7 +22,7 @@
             <input type="text" class="form-control" name="km" id="km" placeholder="Numero di km">
         </div>
         <div class="col-md-5">    
-            <select id="inputState" class="form-select" name="sconto">
+            <select id="sconto" class="form-select" name="sconto">
             <option value="">-- seleziona sconto --</option>
             <option value="">Nessuno</option>
             <option value="minorenni">Minorenni</option>
@@ -41,10 +41,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card">
+                    <div id="biglietto" class="card">
                         <div class="card-body">
                             <h2>Biglietto</h2>
-                            <p>Prezzo: 00,00 &euro;</p>
+                            <p>Prezzo: <span class="prezzo">00.00 &euro;</span></p>
                         </div>
                     </div>
                 </div>
